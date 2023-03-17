@@ -1,8 +1,8 @@
 //UNABLE TO SOLVE FIBONACCI WITH RECURSION
 
 function fibo(n){
-    if (n<=1){
-        return n
+    if (n <= 1){
+        return  n
     }
     return fibo(n-1) + fibo(n-2)
 
@@ -12,8 +12,8 @@ function fibo(n){
 
 let n = 10
 for (i=0;i<n;i++){
-    var x =fibo(n)
-    console.log(x)
+
+    console.log(fibo(i))
 }
 
 
